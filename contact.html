@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MELT into | Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@300&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+
+
+    <script src="main.js"></script>
+</head>
+
+<body>
+ <!-- ヘッダー -->
+ <header class="header">
+  <div class="logo">
+      <a href="index.html"><p>MELT into</p></a>
+  </div>
+  <!-- <nav class="nav">
+  </nav> -->
+  <div class="main-menu nav">
+    <div class="pc-menu">
+      <ul>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="index.html#shop">Shop</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="online.html" target="_blank">Online Shop</a>
+        </li>
+      </ul>
+    </div>
+    <div class="sp-menu">
+      <input type="checkbox" id="sp-menu__check">
+      <label for="sp-menu__check" class="sp-menu__box">
+        <span></span>
+      </label>
+      <div class="sp-menu__content">
+        <ul class="sp-menu__list">
+          <li class="sp-menu__item">
+            <a class="sp-menu__link" href="about.html">About <span>- 私たちについて</span></a>
+          </li>
+          <li class="sp-menu__item">
+            <a class="sp-menu__link" href="index.html#shop">Shop <span>- 店舗情報</span></a>
+          </li>
+          <li class="sp-menu__item">
+            <a class="sp-menu__link" href="contact.html">Contact <span>- お問い合わせ</span></a>
+          </li>
+          <li class="sp-menu__item">
+            <a class="sp-menu__link" href="online.html">Online Shop <span>- オンラインショップ</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- ヘッダーここまで -->
+    <!-- メイン -->
+    <div class="contact-title">
+      <h1>CONTACT</h1>
+      <p>お問い合わせ</p>
+    </div>
+    <main class="main">
+        <div id="contact">
+            
+            <form action="">
+                <p>
+                    <label for="kind">お問い合わせの種類</label><br>
+                    <select name="kind" id="kind">
+                        <option value="1">商品に関するお問い合わせ</option>
+                        <option value="2">ご注文に関するお問い合わせ</option>
+                        <option value="3">その他</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="name">お名前</label><br>
+                    <input type="text" name="name" placeholder="田中太郎" id="name">
+                </p>
+                <p>
+                    <label for="mail">メールアドレス</label><br>
+                    <input type="text" name="mail" placeholder="xxxxxx@gmail.com" id="mail">
+                </p>
+                <p>
+                    <label for="title">件名</label><br>
+                    <input type="text" name="title" id="title">
+                </p>
+                <p>
+                    <label for="message">お問い合わせ内容</label><br>
+                    <textarea name="message" id="massage"></textarea>
+                </p>
+                <p class="privacy">
+                    <input type="checkbox" name="privacy policy" value="consent" >
+                    <a href="">プライバシーポリシー</a>に同意する
+                </p>
+                <div class="button-all">
+                  <p class="button3">
+                      <input type="submit" value="送信">
+                  </p>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!-- メインここまで -->
+    <!-- フッター -->
+    <footer class="footer">
+      <div class="footer-logo">
+          <a href="index.html">
+              <p>MELT into</p>
+          </a>
+          <a href="index.html"><img src="images/it.svg" alt="Instagram"></a>
+          <a href="index.html"><img src="images/fb.svg" alt="Facebook"></a>
+          <a href="index.html"><img src="images/pt.svg" alt="Pintarest"></a>
+      </div>
+      <div class="footer-contents">
+          <div class="shopinfo">
+              <p>
+                  Shopinfo<br>
+                  〒675-0066 <br>
+                  兵庫県加古川市加古川町寺家町47-1<br>
+                  ファーミンインテリジェントビル<br>
+                  TEL:000-0000-0000<br>
+                  OPEN:10:00~20:00
+              </p>
+          </div>
+          <div class="menu">
+              <ul>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="index.html#shop">Shop</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li>
+                      <div class="footer-ol c-btn">
+                          <a href="online.html" target="_blank" class="footer-bt">
+                          <img src="images/footer-cart.png" alt="">
+                           Online Shop
+                          </a>
+                  </div>
+                  </li>
+               </ul>
+      </div>
+      <div class="info">
+          <ul>
+              <li><a href="">会社概要</a></li>
+              <li><a href="">プライバシーポリシー</a></li>
+              <li><a href="">利用規約</a></li>
+          </ul>
+      </div>
+      </div>
+      <p class="copyright">copyright &copy; MELT into Co. Ltd. all rights reserved.</p>
+  </footer>
+  <!-- フッターここまで -->
+</body>
+
+</html>
