@@ -1,121 +1,127 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MELT into</title>
-    <link rel="stylesheet" href="css/style.css">
-    <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
-<link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
-<!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"> -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@300&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
-<script src="main.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MELT into</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+  <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@300&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script src="main.js"></script>
 </head>
 <body>
- <!-- ヘッダー -->
- <header class="header">
-  <div class="logo">
-      <a href="index.html"><p>MELT into</p></a>
-  </div>
-  <!-- <nav class="nav">
-  </nav> -->
-  <div class="main-menu nav">
-    <div class="pc-menu">
-      <ul>
-        <li>
-          <a href="about.html">About</a>
-        </li>
-        <li>
-          <a href="index.html#shop">Shop</a>
-        </li>
-        <li>
-          <a href="contact.html">Contact</a>
-        </li>
-        <li>
-          <a href="online.html" target="_blank">Online Shop</a>
-        </li>
-      </ul>
+  <!-- ヘッダー -->
+  <header class="header">
+    <div class="logo">
+      <a href="index.html">
+        <p>MELT into</p>
+      </a>
     </div>
-    <div class="sp-menu">
-      <input type="checkbox" id="sp-menu__check">
-      <label for="sp-menu__check" class="sp-menu__box">
-        <span></span>
-      </label>
-      <div class="sp-menu__content">
-        <ul class="sp-menu__list">
-          <li class="sp-menu__item">
-            <a class="sp-menu__link" href="about.html">About <span>- 私たちについて</span></a>
+    <!-- <nav class="nav">
+  </nav> -->
+    <div class="main-menu nav">
+      <div class="pc-menu">
+        <ul>
+          <li>
+            <a href="about.html">About</a>
           </li>
-          <li class="sp-menu__item">
-            <a class="sp-menu__link" href="index.html#shop">Shop <span>- 店舗情報</span></a>
+          <li>
+            <a href="index.html#shop">Shop</a>
           </li>
-          <li class="sp-menu__item">
-            <a class="sp-menu__link" href="contact.html">Contact <span>- お問い合わせ</span></a>
+          <li>
+            <a href="contact.html">Contact</a>
           </li>
-          <li class="sp-menu__item">
-            <a class="sp-menu__link" href="online.html">Online Shop <span>- オンラインショップ</span></a>
+          <li>
+            <a href="online.html" target="_blank">Online Shop</a>
           </li>
         </ul>
       </div>
-    </div>
-  </div>
-</header>
-<!-- ヘッダーここまで -->
- 
-    <!-- メイン -->
-    <main class="about-main">
-      <div class="about-title">
-        <h1>ABOUT</h1>
-        <p>私たちについて</p>
-      </div>
-    <div class="about1">
-        <div class="about1-text">
-            <p>CONCEPT</p>
-            <h2>一流のデザインをどなたにも。</h2>
-            <p>私たちは、どなたにも素敵な空間づくりを実現していただきたい思いから、<br>機能性、デザイン性に優れた商品をお求めやすい価格でご提供しています。</p>
+      <div class="sp-menu">
+        <input type="checkbox" id="sp-menu__check">
+        <label for="sp-menu__check" class="sp-menu__box">
+          <span></span>
+        </label>
+        <div class="sp-menu__content">
+          <ul class="sp-menu__list">
+            <li class="sp-menu__item">
+              <a class="sp-menu__link" href="about.html">About <span>- 私たちについて</span></a>
+            </li>
+            <li class="sp-menu__item">
+              <a class="sp-menu__link" href="index.html#shop">Shop <span>- 店舗情報</span></a>
+            </li>
+            <li class="sp-menu__item">
+              <a class="sp-menu__link" href="contact.html">Contact <span>- お問い合わせ</span></a>
+            </li>
+            <li class="sp-menu__item">
+              <a class="sp-menu__link" href="online.html">Online Shop <span>- オンラインショップ</span></a>
+            </li>
+          </ul>
         </div>
-        <img src="images/about1.jpg" alt="" class="about1-img">
+      </div>
+    </div>
+  </header>
+  <!-- ヘッダーここまで -->
+
+  <!-- メイン -->
+  <main class="about-main">
+    <div class="about-title">
+      <h1>ABOUT</h1>
+      <p>私たちについて</p>
+    </div>
+    <div class="about1">
+      <div class="about1-text">
+        <p>CONCEPT</p>
+        <h2>一流のデザインをどなたにも。</h2>
+        <p>私たちは、どなたにも素敵な空間づくりを実現していただきたい思いから、<br>機能性、デザイン性に優れた商品をお求めやすい価格でご提供しています。</p>
+      </div>
+      <img src="images/about1.jpg" alt="" class="about1-img">
     </div>
     <div class="about2">
-        <div class="about2-img ">
-            <img src="images/about2-1.jpg" alt="" class="about2-img2-1 fadeUpTrigger">
-            <img src="images/about2-2.jpg" alt="" class="about2-img2-2 fadeUpTrigger">
-            <img src="images/about2-3.jpg" alt="" class="about2-img2-3 fadeUpTrigger">
-        </div>
-        <div class="about2-text">
-            <p></p>
-        </div>
+      <div class="about2-img ">
+        <img src="images/about2-1.jpg" alt="" class="about2-img2-1 fadeUpTrigger">
+        <img src="images/about2-2.jpg" alt="" class="about2-img2-2 fadeUpTrigger">
+        <img src="images/about2-3.jpg" alt="" class="about2-img2-3 fadeUpTrigger">
+      </div>
+      <div class="about2-text">
+        <p></p>
+      </div>
     </div>
     <div class="about3">
-        <img src="images/about3-1.jpg" alt="" class="about3-img3-1 fadeUpTrigger">
-        <img src="images/about3-2.jpg" alt="" class="about3-img3-2 fadeUpTrigger">
-        <div class="about3-text">
-            <p>OUR PRODUCTS</p>
-            <h2>TO ANYONE</h2>
-            <p><p>どんなお部屋にも溶け込む商品を、という思いから当店では、 <br>モノトーン調の商品を多く展開しておりますので <br>お客様のお部屋に溶け込む商品がきっと見つかります！</p></p>
-        </div>
-        <img src="images/living1.jpg" alt="" class="about3-img3-3 fadeUpTrigger">
-        <img src="images/kitchen5.jpg" alt="" class="about3-img3-4 fadeUpTrigger">
-        <img src="images/about3-3.jpg" alt="" class="about3-img3-5 fadeUpTrigger">
+      <img src="images/about3-1.jpg" alt="" class="about3-img3-1 fadeUpTrigger">
+      <img src="images/about3-2.jpg" alt="" class="about3-img3-2 fadeUpTrigger">
+      <div class="about3-text">
+        <p>OUR PRODUCTS</p>
+        <h2>TO ANYONE</h2>
+        <p><p>どんなお部屋にも溶け込む商品を、という思いから当店では、 <br>モノトーン調の商品を多く展開しておりますので <br>お客様のお部屋に溶け込む商品がきっと見つかります！</p>
+        </p>
+      </div>
+      <img src="images/living1.jpg" alt="" class="about3-img3-3 fadeUpTrigger">
+      <img src="images/kitchen5.jpg" alt="" class="about3-img3-4 fadeUpTrigger">
+      <img src="images/about3-3.jpg" alt="" class="about3-img3-5 fadeUpTrigger">
     </div>
 
-    </main>
-    <!-- メインここまで -->
-     <!-- フッター -->
-     <footer class="footer">
-      <div class="footer-logo">
-          <a href="index.html">
-              <p>MELT into</p>
-          </a>
-          <a href="index.html"><img src="images/it.svg" alt="Instagram"></a>
-          <a href="index.html"><img src="images/fb.svg" alt="Facebook"></a>
-          <a href="index.html"><img src="images/pt.svg" alt="Pintarest"></a>
-      </div>
-      <div class="footer-contents">
-          <div class="shopinfo">
-              <p>
+  </main>
+  <!-- メインここまで -->
+  <!-- フッター -->
+  <footer class="footer">
+    <div class="footer-logo">
+      <a href="index.html">
+        <p>MELT into</p>
+      </a>
+      <a href="index.html"><img src="images/it.svg" alt="Instagram"></a>
+      <a href="index.html"><img src="images/fb.svg" alt="Facebook"></a>
+      <a href="index.html"><img src="images/pt.svg" alt="Pintarest"></a>
+    </div>
+    <div class="footer-contents">
+      <div class="shopinfo">
+        <p>
                   Shopinfo<br>
                   〒675-0066 <br>
                   兵庫県加古川市加古川町寺家町47-1<br>
@@ -123,49 +129,34 @@
                   TEL:000-0000-0000<br>
                   OPEN:10:00~20:00
               </p>
-          </div>
-          <div class="menu">
-              <ul>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="index.html#shop">Shop</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                  <li>
-                      <div class="footer-ol c-btn">
-                          <a href="online.html" target="_blank" class="footer-bt">
-                          <img src="images/footer-cart.png" alt="">
-                           Online Shop
-                          </a>
-                  </div>
-                  </li>
-               </ul>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html#shop">Shop</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <div class="footer-ol c-btn">
+              <a href="online.html" target="_blank" class="footer-bt">
+                <img src="images/footer-cart.png" alt="">
+                Online Shop
+              </a>
+            </div>
+          </li>
+        </ul>
       </div>
       <div class="info">
-          <ul>
-              <li><a href="">会社概要</a></li>
-              <li><a href="">プライバシーポリシー</a></li>
-              <li><a href="">利用規約</a></li>
-          </ul>
+        <ul>
+          <li><a href="">会社概要</a></li>
+          <li><a href="">プライバシーポリシー</a></li>
+          <li><a href="">利用規約</a></li>
+        </ul>
       </div>
-      </div>
-      <p class="copyright">copyright &copy; MELT into Co. Ltd. all rights reserved.</p>
+    </div>
+    <p class="copyright">copyright &copy; MELT into Co. Ltd. all rights reserved.</p>
   </footer>
   <!-- フッターここまで -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/js/6-1-6.js"></script>
-    <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/3-2-3-1/js/3-2-3-1.js"></script>
+  <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-6/js/6-1-6.js"></script>
+  <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/3-2-3-1/js/3-2-3-1.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
